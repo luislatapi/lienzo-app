@@ -1,0 +1,49 @@
+@import '@fontsource-variable/bricolage-grotesque';
+@import '@fontsource-variable/instrument-sans';
+@import '@fontsource-variable/jetbrains-mono';
+
+:root {
+  /* Tinta y papel */
+  --ink: #1b1a2e;
+  --ink-2: #4a4962;
+  --ink-3: #85849b;
+  --ink-4: #b4b3c4;
+  --line: #e4e3ec;
+  --line-strong: #cfcedb;
+  --paper: #ffffff;
+  --paper-2: #f6f5f9;
+  --paper-3: #eeedf4;
+  --canvas: #dedde7;
+
+  /* Único acento: rosa mexicano */
+  --rosa: #e5007d;
+  --rosa-hover: #c9006e;
+  --rosa-soft: #ffe6f3;
+  --rosa-line: #ff8cc4;
+  --on-rosa: #ffffff;
+
+  /* Estados */
+  --ok: #17845a;
+  --ok-soft: #e0f5ec;
+  --warn: #a96a00;
+  --warn-soft: #fff1d6;
+  --bad: #c62d3a;
+  --bad-soft: #fde4e6;
+
+  --font-display: 'Bricolage Grotesque Variable', 'Bricolage Grotesque', 'Instrument Sans Variable', system-ui, sans-serif;
+  --font-ui: 'Instrument Sans Variable', 'Instrument Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono Variable', 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+  --radius-s: 5px;
+  --radius-m: 8px;
+  --radius-l: 14px;
+  --shadow-pop: 0 10px 30px -6px rgba(27, 26, 46, 0.28), 0 2px 6px rgba(27, 26, 46, 0.12);
+  --shadow-frame: 0 20px 50px -18px rgba(27, 26, 46, 0.4), 0 0 0 1px rgba(27, 26, 46, 0.08);
+
+  --topbar-h: 52px;
+  --rail-w: 60px;
+  --left-w: 288px;
+  --right-w: 304px;
+
+  color-scheme: light;
+}
